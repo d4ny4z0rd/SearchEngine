@@ -34,7 +34,7 @@ public class History extends HttpServlet {
         catch (SQLException sqlException){
             sqlException.printStackTrace();
         } catch (ServletException | IOException e) {
-            throw new RuntimeException(e);
+            throw new RuntimeException(e); jkhkjbk
         }
     }
 }
